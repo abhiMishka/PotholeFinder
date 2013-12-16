@@ -41,7 +41,7 @@
 		
         
         <activity
-            android:name="com.mc.app4.Activity1"
+            android:name="com.mc.app4.HomePage"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -61,7 +61,7 @@
         </activity>
         
         <activity
-            android:name="com.mc.app4.Activity4"
+            android:name="com.mc.app4.GetLocation"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.ACTIVITY4" />
@@ -71,7 +71,7 @@
         </activity>
         
         <activity
-            android:name="com.mc.app4.Activity3"
+            android:name="com.mc.app4.UploadOptions"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.ACTIVITY3" />
@@ -91,7 +91,7 @@
         </activity>
         
         <activity
-            android:name="com.mc.app4.Activity5"
+            android:name="com.mc.app4.Comments"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.ACTIVITY5" />
@@ -101,7 +101,7 @@
         </activity>
         
         <activity
-            android:name="com.mc.app4.Activity6"
+            android:name="com.mc.app4.Rating"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.ACTIVITY6" />
@@ -111,7 +111,7 @@
         </activity>
         
         <activity
-            android:name="com.mc.app4.UploadActivity"
+            android:name="com.mc.app4.UploadData"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.UPLOADACTIVITY" />
@@ -151,7 +151,7 @@
         </activity>
         
         <activity
-            android:name="com.mc.app4.Image_activity"
+            android:name="com.mc.app4.TakePhoto"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.IMAGE_ACTIVITY" />
@@ -171,7 +171,7 @@
         </activity>
         
         <activity
-            android:name="com.mc.app4.thankYou"
+            android:name="com.mc.app4.ThankYou"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.THANKYOU" />

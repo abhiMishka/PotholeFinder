@@ -18,7 +18,7 @@ public class Current_Map extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.page_currentmap); 
+        setContentView(R.layout.current_location_map); 
         try {
             // Loading map
             initializeMap(); 

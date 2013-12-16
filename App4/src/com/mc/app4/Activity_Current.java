@@ -20,7 +20,7 @@ public class Activity_Current extends FragmentActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.page3); 
+        setContentView(R.layout.location); 
         try {
             // Loading map
             initializeMap(); 

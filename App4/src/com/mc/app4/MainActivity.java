@@ -195,7 +195,7 @@ public class MainActivity extends FragmentActivity implements ActionBar.TabListe
 		Button b1;
 		@Override
 		public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-			View rootView = inflater.inflate(R.layout.page3, container, false);
+			View rootView = inflater.inflate(R.layout.location, container, false);
 			t1 = (TextView) rootView.findViewById(R.id.textView1);			
 			t2 = (TextView) rootView.findViewById(R.id.textView2);	
 			Intent a1 = new Intent ("android.intent.action.ACTIVITY4");
@@ -264,7 +264,7 @@ public class MainActivity extends FragmentActivity implements ActionBar.TabListe
 		static boolean rating, noting, images;
 		@Override
 		public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-			View rootView = inflater.inflate(R.layout.page2, container, false);
+			View rootView = inflater.inflate(R.layout.options, container, false);
 			image = (CheckBox) rootView.findViewById (R.id.checkBox1);
 			notes = (CheckBox) rootView.findViewById (R.id.checkBox2);
 			rates = (CheckBox) rootView.findViewById (R.id.checkBox3);
